@@ -13,6 +13,7 @@ connection();
 //Crear servidor rest
 const app = express();
 
+//puerto variable de entorno o 3000
 const puerto = process.env.PORT || 3000;
 
 
