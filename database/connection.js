@@ -3,7 +3,8 @@ const mongoose = require("mongoose");
 
 const connection = async() => {
     try{
-
+        
+        //conexión base de datos
         await mongoose.connect(process.env.DatabaseMongo);
 
         //Parametros dentro de objeto || solo en caso de fallos 
