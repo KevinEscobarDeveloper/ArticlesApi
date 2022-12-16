@@ -63,7 +63,7 @@ app.get("/", (req,res) =>{
 //Crear servidor y escuchar peticiones
 app.listen(puerto, () => {
     console.log('Servidor corriendo en el puerto '+puerto)
-    console.log(process.env.DatabaseMongo)
+
 });
 
 
