@@ -5,7 +5,7 @@ require('dotenv').config()
 const connection = async() => {
     try{
 
-        await mongoose.connect(process.env.Database);
+        await mongoose.connect(process.env.DatabaseMongo);
 
         //Parametros dentro de objeto || solo en caso de fallos 
         //useNewParser: true
